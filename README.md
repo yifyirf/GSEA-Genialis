@@ -15,6 +15,6 @@ Returns 2 files with results, each for one of the phenotypes. The results files 
 names, normalized enrichment scores and pvalues based on the user inputs. The results are sorted 
 by the normalized enrichment score.
 
-The repository also contains 2 output files, "ALL.txt" and "AML.txt", created during a test run using the first 100 gene sets 
-from the "pathways.txt" file. 
-During the test run 100 permutations were used for each gene set. The test run took around 3 hours to complete.
+The repository also contains 2 output files, "ALL.txt" and "AML.txt", created during a test run using the first 25 gene sets 
+from the "pathways.txt" file. I exported these 25 genes in a separate file, called "pathways_truncated.txt"
+During the test run 100 permutations were used for each gene set. The test run took around 30 minutes to complete.
